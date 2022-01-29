@@ -1,0 +1,116 @@
+# Header
+menu:
+  首頁: / || fas fa-home
+  時間軸: /archives/ || fas fa-archive
+  標籤: /tags/ || fas fa-tags
+  分類: /categories/ || fas fa-folder-open
+  清單||fa fa-heartbeat:
+    音樂: /music/ || fas fa-music
+    照片: /Gallery/ || fas fa-images
+    電影: /movies/ || fas fa-video
+  友鏈: /link/ || fas fa-link
+  關於: /about/ || fas fa-heart
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# Sidebar
+sidebar: right
+widgets:
+- category
+- tag
+- tagcloud
+- archive
+- recent_posts
+
+# display widgets at the bottom of index pages (pagination == 2)
+index_widgets:
+# - category
+# - tagcloud
+# - archive
+
+# widget behavior
+archive_type: 'monthly'
+show_count: false
+
+# Miscellaneous
+google_analytics:
+gauges_analytics:
+favicon: /favicon.png
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:
+
+#代码相关部分
+highlight_theme: mac
+highlight_copy: true
+code_word_wrap: true
+
+
+#头像
+avatar:
+  img: https://raw.githubusercontent.com/Yangzj2000/picgo/main/img/touxiang_看图王.png
+  effect: false # 頭像轉圈
+
+# dark mode
+darkmode:
+  enable: true
+  # dark mode和 light mode切換按鈕
+  button: true
+  autoChangeMode: false
+
+#文章封面
+  cover:
+  # 是否顯示文章封面
+  index_enable: true
+  aside_enable: true
+  archives_enable: true
+  # 封面顯示的位置
+  # 三個值可配置 left , right , both
+  position: both
+  # 當沒有設置cover時，默認的封面顯示
+default_cover:
+  - https://dogefs.s3.ladydaily.com/~/source/wallhaven/small/z8/z8dg9y.jpg
+
+# 图片部分
+# disable_top_img: true
+index_img: https://s2.loli.net/2022/01/29/al37hKWN8vTfxyz.jpg
+
+# 主頁subtitle  副标题
+subtitle:
+  enable: true
+  # Typewriter Effect (打字效果)
+  effect: true
+  # loop (循環打字)
+  loop: true
+  # source 調用第三方服務
+  # source: false 關閉調用
+  # source: 1  調用一言網的一句話（簡體） https://hitokoto.cn/
+  # source: 2  調用一句網（簡體） http://yijuzhan.com/
+  # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
+  # subtitle 會先顯示 source , 再顯示 sub 的內容
+  source: false
+  # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
+  sub:
+    - 一个不合格的工设npc
+    - Welcome to my Blog ! !
+
+#评论
+comments:
+  # Up to two comments system, the first will be shown as default
+  # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo
+  use: Livere,Disqus
+  text: true # Display the comment name next to the button
+  # lazyload: The comment system will be load when comment element enters the browser's viewport.
+  # If you set it to true, the comment count will be invalid
+  lazyload: true
+  count: true # Display comment count in top_img
+  card_post_count: false # Display comment count in Home Page
+
+  livere:
+  uid: MTAyMC81NTMzNC8zMTgwMQ==
+
+# footer
+footer_bg: true
